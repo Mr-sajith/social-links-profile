@@ -1,0 +1,261 @@
+
+:root{
+
+    /* Primary */
+--Green: hsl(75, 94%, 57%);
+
+/* Neutral */
+--White: hsl(0, 0%, 100%);
+--Grey: hsl(0, 0%, 20%);
+--paragraph-colore: hsla(0, 0%, 100%, 0.788);
+--Dark-Grey: hsl(0, 0%, 12%);
+--Off-Black: hsl(0, 0%, 8%);
+
+--paragraph-fontsize: 14px;
+
+}
+
+@font-face {
+    font-family: inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: inter-bold;
+    src: url(./assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: inter-regular;
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: inter-semibold;
+    src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+
+
+@media screen and (max-width: 414px) {
+
+    #box-one{
+        padding-top: 100px;
+    }
+    #contener{
+        width: 90%;
+    }
+    #attribution{
+        width: 95%;
+
+    }
+
+
+}
+@media screen and (max-width: 412px) {
+
+    #box-one{
+        padding-top: 100px;
+    }
+    #contener{
+        width: 90%;
+    }
+    #attribution{
+        width: 95%;
+
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+    #front-end{
+        text-align: center;
+        color: var(--paragraph-colore);
+        font-size: 0.8em;
+        font-family: inter;
+    
+        margin: 30px 0px 20px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 360px) {
+    #front-end{
+        text-align: center;
+        color: var(--paragraph-colore);
+        font-size: 0.8em;
+        font-family: inter;
+    
+        margin: 30px 0px 20px;
+    }
+
+
+}
+@media screen and (max-width: 280px) {
+
+    #box-one{
+        padding-top: 100px;
+    }
+    #contener{
+        width: 90%;
+    }
+
+    /* section smentic */
+    #Jessica{
+    font-family: inter, sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3em;
+
+    margin: 10px 0px 10px 0px;
+    }
+
+    #london{
+    color: var(--Green);
+    font-family: inter;
+    text-align: center;;
+    font-size: 0.8em;
+
+    padding: 0px;
+    margin: 0px;
+     }
+
+    #front-end{
+        text-align: center;
+        color: var(--paragraph-colore);
+        font-size: 0.6em;
+        font-family: inter;
+    
+        margin: 30px 0px 20px;
+    }
+
+    #b{
+        color: var(--White);
+    
+        text-decoration: none;
+        font-family: inter-semibold;
+        text-transform: capitalize;
+        font-size:small;
+    }
+
+    #attribution{
+        width: 90%;
+    }
+
+     
+
+}
+
+
+
+body{
+
+    background-color: var(--Off-Black);
+    color: var(--White);
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 200px;
+    padding-bottom: 10%;
+
+
+}
+
+.contener{
+    width: 450px;
+    background-color: var(--Dark-Grey);
+    display: grid;
+
+    border-radius: 0.8rem;
+    margin-bottom: 10px;
+   
+
+}
+
+
+/* header smentic */
+header{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+img{
+    border-radius: 50%;
+    width: 25%;
+  
+}
+
+
+/* section smentic */
+h1{
+    font-family: inter, sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.7em;
+
+    margin: 10px 0px 10px 0px;
+}
+
+.London{
+    color: var(--Green);
+    font-family: inter;
+    text-align: center;;
+    font-size: 1em;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* botton smentic */
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    margin-bottom: 35px;
+
+
+}
+
+.front-end{
+    text-align: center;
+    color: var(--paragraph-colore);
+    font-size: 1em;
+    font-family: inter;
+
+    margin: 30px 0px 20px;
+}
+
+button{
+    color: var(--White);
+    background-color: var(--Grey);
+
+
+    padding: 4%;
+    margin: 2% 10% 10px;
+
+    border-radius: 10px;
+    border: 0px;
+
+    cursor: pointer;
+
+    font-family: inter-semibold;
+    text-transform: capitalize;
+    font-size:medium;
+    font-weight: bold;
+}
+
+
+
+/* pesodo classs */
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
